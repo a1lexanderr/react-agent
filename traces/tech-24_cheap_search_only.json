@@ -1,0 +1,73 @@
+{
+  "id": "tech-24_cheap_search_only",
+  "question": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?",
+  "expected": "GPT-6 Astra",
+  "answer": "GPT-6 Astra",
+  "is_correct": true,
+  "steps": 3,
+  "cost": 0.00022,
+  "tokens_in": 1145,
+  "tokens_out": 83,
+  "duration_sec": 8.68,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tsiG99vXtNOXo21iIZ2fk4c6",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI artificial general intelligence launch September 4 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tsiG99vXtNOXo21iIZ2fk4c6",
+      "content": "[2026 in artificial intelligence] The following is a list of events of the year 2026 in artificial intelligence, as well as predicted and scheduled events that have not yet occurred. | Другие статьи: OpenAI, GPT-6"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_e9oKG1mRb3XneEosUGpvynnl",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI GPT-6 launch September 4 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_e9oKG1mRb3XneEosUGpvynnl",
+      "content": "[GPT-6] GPT-6 is a family of large language models (LLM) developed by American artificial intelligence firm OpenAI. GPT-6 Astra was released to the general public on September 4, 2026, while GPT-6 Sol and GPT-6 Luna were released on September 22, 2026. On October 7, 2026, GPT-6 Instant was released to paid users, featuring an \"Intelligent UI\" that includes interactive widgets with answers. This was released to free users a day later. | Другие статьи: GPT-4, GPT-6.1"
+    },
+    {
+      "role": "assistant",
+      "content": "OpenAI launched GPT-6 Astra, described as an artificial general intelligence model, on September 4, 2026. \n\nFINAL: GPT-6 Astra",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

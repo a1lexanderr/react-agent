@@ -1,0 +1,29 @@
+{
+  "id": "tech-9_strong_no_tools",
+  "question": "What educational platform suffered a data breach in computing in 2026?",
+  "expected": "Canvas",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00092,
+  "tokens_in": 52,
+  "tokens_out": 51,
+  "duration_sec": 1.81,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What educational platform suffered a data breach in computing in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have reliable information about a data breach affecting an educational platform in 2026. My knowledge cutoff is July 2025, so I cannot confirm events that occurred after that date.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

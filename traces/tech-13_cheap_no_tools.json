@@ -1,0 +1,29 @@
+{
+  "id": "tech-13_cheap_no_tools",
+  "question": "On what date was the UN Declaration on Sea Level Rise published in 2026?",
+  "expected": "22 September",
+  "answer": "Not applicable",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 56,
+  "tokens_out": 32,
+  "duration_sec": 1.22,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "On what date was the UN Declaration on Sea Level Rise published in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "The UN Declaration on Sea Level Rise was not published in 2026, as my training data only goes up to October 2023. FINAL: Not applicable",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

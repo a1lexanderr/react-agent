@@ -1,0 +1,133 @@
+{
+  "id": "tech-1_cheap_search_only",
+  "question": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?",
+  "expected": "Comet",
+  "answer": "[Web browser] A web browser, often abbreviated as browser, is an application for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers can also display content stored locally on the user's device. Browsers are used on a range of devices, including desktops, laptops, tablets, smartphones, smartwatches, smart televisions and consoles. As of 2026, the most used browsers worldwide are Google Chrome (~69% market share), Safari (~16%), Edge (~5%), Firefox (~2%), Samsung Browser (~2%), and Opera (~2%). As of 2023, an estimated 5.4 billion people had used a browser. | Другие статьи: OpenAI, Products and applications of OpenAI",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00061,
+  "tokens_in": 4089,
+  "tokens_out": 126,
+  "duration_sec": 15.68,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_IsiWYBn7NM8YbeNojLW3Sj82",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser release July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_IsiWYBn7NM8YbeNojLW3Sj82",
+      "content": "[Perplexity AI] Perplexity AI, Inc., or simply Perplexity, is an American privately held software company offering a web search engine that processes user queries and synthesizes responses. Perplexity products use large language models and include web search capabilities which provide responses based on current Internet content, citing sources used. A free public version is available, while a paid Pro subscription offers access to more advanced language models and additional features. Perplexity AI, Inc., was founded in 22 August 2022 by Aravind Srinivas, Denis Yarats, Johnny Ho, and Andy Konwinski. As of September 2025, the company was valued at US$20 billion. Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from several major media organizations, including the BBC, Dow Jones, and The New York Times. According to separate analyses by Wired and, later, Cloudflare, Perplexity uses undisclosed web crawlers with spoofed user-agent strings to scrape the content of websites that prohibit or explicitly block web scraping. | Другие статьи: Comet (browser), Web browser"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PaNZDOGmq6PI4F1bjYxxnBO1",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI browser release July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PaNZDOGmq6PI4F1bjYxxnBO1",
+      "content": "[Perplexity AI] Perplexity AI, Inc., or simply Perplexity, is an American privately held software company offering a web search engine that processes user queries and synthesizes responses. Perplexity products use large language models and include web search capabilities which provide responses based on current Internet content, citing sources used. A free public version is available, while a paid Pro subscription offers access to more advanced language models and additional features. Perplexity AI, Inc., was founded in 22 August 2022 by Aravind Srinivas, Denis Yarats, Johnny Ho, and Andy Konwinski. As of September 2025, the company was valued at US$20 billion. Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from several major media organizations, including the BBC, Dow Jones, and The New York Times. According to separate analyses by Wired and, later, Cloudflare, Perplexity uses undisclosed web crawlers with spoofed user-agent strings to scrape the content of websites that prohibit or explicitly block web scraping. | Другие статьи: Comet (browser), Web browser"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QXjg3gDLjCVOMf60rcbrTsbZ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QXjg3gDLjCVOMf60rcbrTsbZ",
+      "content": "[Perplexity AI] Perplexity AI, Inc., or simply Perplexity, is an American privately held software company offering a web search engine that processes user queries and synthesizes responses. Perplexity products use large language models and include web search capabilities which provide responses based on current Internet content, citing sources used. A free public version is available, while a paid Pro subscription offers access to more advanced language models and additional features. Perplexity AI, Inc., was founded in 22 August 2022 by Aravind Srinivas, Denis Yarats, Johnny Ho, and Andy Konwinski. As of September 2025, the company was valued at US$20 billion. Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from several major media organizations, including the BBC, Dow Jones, and The New York Times. According to separate analyses by Wired and, later, Cloudflare, Perplexity uses undisclosed web crawlers with spoofed user-agent strings to scrape the content of websites that prohibit or explicitly block web scraping. | Другие статьи: Comet (browser), Web browser"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BQF0BjNk9VGvAbGCV43xdfUo",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI browser release news July 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BQF0BjNk9VGvAbGCV43xdfUo",
+      "content": "[Perplexity AI] Perplexity AI, Inc., or simply Perplexity, is an American privately held software company offering a web search engine that processes user queries and synthesizes responses. Perplexity products use large language models and include web search capabilities which provide responses based on current Internet content, citing sources used. A free public version is available, while a paid Pro subscription offers access to more advanced language models and additional features. Perplexity AI, Inc., was founded in 22 August 2022 by Aravind Srinivas, Denis Yarats, Johnny Ho, and Andy Konwinski. As of September 2025, the company was valued at US$20 billion. Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from several major media organizations, including the BBC, Dow Jones, and The New York Times. According to separate analyses by Wired and, later, Cloudflare, Perplexity uses undisclosed web crawlers with spoofed user-agent strings to scrape the content of websites that prohibit or explicitly block web scraping. | Другие статьи: Pangram (AI detector), OpenAI"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_sUNlslczmkhqGvkGMaTFYwKc",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI browser July 9 2025 release details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_sUNlslczmkhqGvkGMaTFYwKc",
+      "content": "[Web browser] A web browser, often abbreviated as browser, is an application for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers can also display content stored locally on the user's device. Browsers are used on a range of devices, including desktops, laptops, tablets, smartphones, smartwatches, smart televisions and consoles. As of 2026, the most used browsers worldwide are Google Chrome (~69% market share), Safari (~16%), Edge (~5%), Firefox (~2%), Samsung Browser (~2%), and Opera (~2%). As of 2023, an estimated 5.4 billion people had used a browser. | Другие статьи: OpenAI, Products and applications of OpenAI"
+    }
+  ]
+}

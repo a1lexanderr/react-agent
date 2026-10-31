@@ -1,0 +1,29 @@
+{
+  "id": "tech-12_strong_no_tools",
+  "question": "What health insurance program was breached by an OpenAI rogue agent in 2026?",
+  "expected": "Medicare",
+  "answer": "I don't have reliable information about this event.",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00106,
+  "tokens_in": 58,
+  "tokens_out": 59,
+  "duration_sec": 1.96,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What health insurance program was breached by an OpenAI rogue agent in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have verified information about an OpenAI rogue agent breaching a health insurance program in 2026. This event would be beyond my knowledge cutoff or may not have occurred as described.\n\nFINAL: I don't have reliable information about this event.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "tech-30_cheap_search_only",
+  "question": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?",
+  "expected": "CSG-3",
+  "answer": "Ничего не найдено",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00033,
+  "tokens_in": 1760,
+  "tokens_out": 113,
+  "duration_sec": 45.4,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_fNQG2u7kyZRylt4ipJFF0Hop",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Italy Earth observation satellite launched Falcon 9 January 3 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fNQG2u7kyZRylt4ipJFF0Hop",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ersWa71FgCrw6S9tH6gAakNI",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 in spaceflight\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ersWa71FgCrw6S9tH6gAakNI",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_mqb6DqUdGGVP61sAyGooltIn",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Italy Earth observation satellite Falcon 9 January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mqb6DqUdGGVP61sAyGooltIn",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3kgS6dvulNhToN90kBRuz7DD",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"January 3 2026 Falcon 9 launch Italy satellite\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3kgS6dvulNhToN90kBRuz7DD",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_eaFK1MPOZ9ZGwB5KrgiivpZU",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Earth observation satellite launches\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_eaFK1MPOZ9ZGwB5KrgiivpZU",
+      "content": "Ничего не найдено"
+    }
+  ]
+}

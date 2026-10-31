@@ -1,0 +1,29 @@
+{
+  "id": "tech-5_strong_no_tools",
+  "question": "What AI agent research system did OpenAI release on 2 February 2025?",
+  "expected": "ChatGPT Deep Research",
+  "answer": "Operator (also known as \"Operator\" — OpenAI released **Operator**, an AI agent that can perform tasks on the web autonomously)",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00083,
+  "tokens_in": 57,
+  "tokens_out": 44,
+  "duration_sec": 2.04,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI agent research system did OpenAI release on 2 February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Operator (also known as \"Operator\" — OpenAI released **Operator**, an AI agent that can perform tasks on the web autonomously)\n\nFINAL: Operator",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

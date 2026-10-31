@@ -1,0 +1,29 @@
+{
+  "id": "tech-7_strong_no_tools",
+  "question": "What executive order removing barriers to American leadership in AI did Trump sign on 23 January 2025?",
+  "expected": "Executive Order 14179",
+  "answer": "Executive Order 14179 (\"Removing Barriers to American Leadership in Artificial Intelligence\")",
+  "is_correct": true,
+  "steps": 1,
+  "cost": 0.00056,
+  "tokens_in": 60,
+  "tokens_out": 25,
+  "duration_sec": 1.63,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What executive order removing barriers to American leadership in AI did Trump sign on 23 January 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Executive Order 14179 (\"Removing Barriers to American Leadership in Artificial Intelligence\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tech-35_cheap_no_tools",
+  "question": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?",
+  "expected": "40",
+  "answer": "Unknown",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 64,
+  "tokens_out": 24,
+  "duration_sec": 1.43,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot provide information about events or appointments that occurred after my last training data in October 2023. FINAL: Unknown",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

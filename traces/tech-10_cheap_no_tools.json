@@ -1,0 +1,29 @@
+{
+  "id": "tech-10_cheap_no_tools",
+  "question": "Which civil defense system experienced a false alarm in 2026?",
+  "expected": "Brazilian",
+  "answer": "No false alarm in 2026.",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 52,
+  "tokens_out": 34,
+  "duration_sec": 1.62,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "Which civil defense system experienced a false alarm in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "There was no civil defense system that experienced a false alarm in 2026, as that year is in the future. FINAL: No false alarm in 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

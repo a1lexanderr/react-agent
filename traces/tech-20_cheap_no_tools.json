@@ -1,0 +1,29 @@
+{
+  "id": "tech-20_cheap_no_tools",
+  "question": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?",
+  "expected": "Meta Superintelligence Labs",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 58,
+  "tokens_out": 25,
+  "duration_sec": 1.58,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot provide information about events or organizations founded after my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

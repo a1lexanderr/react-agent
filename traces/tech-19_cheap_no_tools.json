@@ -1,0 +1,29 @@
+{
+  "id": "tech-19_cheap_no_tools",
+  "question": "What German AI firm did Cohere agree to acquire in April 2026?",
+  "expected": "Aleph Alpha",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 55,
+  "tokens_out": 30,
+  "duration_sec": 2.11,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What German AI firm did Cohere agree to acquire in April 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I cannot provide information about events or developments that occurred after my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

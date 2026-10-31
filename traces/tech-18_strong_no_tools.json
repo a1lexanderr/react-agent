@@ -1,0 +1,29 @@
+{
+  "id": "tech-18_strong_no_tools",
+  "question": "What university did Andrew M. Stuart leave in 2026?",
+  "expected": "Caltech",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00095,
+  "tokens_in": 51,
+  "tokens_out": 53,
+  "duration_sec": 2.07,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What university did Andrew M. Stuart leave in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have reliable information about Andrew M. Stuart leaving a university in 2026. My knowledge cutoff is early 2025, and I cannot confirm events that would occur in 2026.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

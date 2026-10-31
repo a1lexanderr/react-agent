@@ -1,0 +1,117 @@
+{
+  "id": "tech-1_cheap_best_agent",
+  "question": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?",
+  "expected": "Comet",
+  "answer": "Comet",
+  "is_correct": true,
+  "steps": 5,
+  "cost": 0.00069,
+  "tokens_in": 4011,
+  "tokens_out": 152,
+  "duration_sec": 28.67,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_9tQzMDzO0jAgFYzJHH9bYZoU",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser release July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9tQzMDzO0jAgFYzJHH9bYZoU",
+      "content": "Ошибка поиска DuckDuckGo: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_xv2V6PrO1N9h9sVhPCO6Ghvt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_xv2V6PrO1N9h9sVhPCO6Ghvt",
+      "content": "Ошибка поиска DuckDuckGo: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_K5oqV2zpxf4UbAyDxAGZMp0K",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser release July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_K5oqV2zpxf4UbAyDxAGZMp0K",
+      "content": "[Perplexity AI] Perplexity AI, Inc., or simply Perplexity, is an American privately held software company offering a web search engine that processes user queries and synthesizes responses. Perplexity products use large language models and include web search capabilities which provide responses based on current Internet content, citing sources used. A free public version is available, while a paid Pro subscription offers access to more advanced language models and additional features. Perplexity AI, Inc., was founded in 22 August 2022 by Aravind Srinivas, Denis Yarats, Johnny Ho, and Andy Konwinski. As of September 2025, the company was valued at US$20 billion. Perplexity AI has faced legal scrutiny over allegations of copyright infringement, unauthorized use of content, and trademark issues from several major media organizations, including the BBC, Dow Jones, and The New York Times. According to separate analyses by Wired and, later, Cloudflare, Perplexity uses undisclosed web crawlers with spoofed user-agent strings to scrape the content of websites that prohibit or explicitly block web scraping. | Другие статьи: Comet (browser), Web browser"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_R5LUeTm7sBkPQ0X08kJGI1hb",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Perplexity AI browser release July 9 2025 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_R5LUeTm7sBkPQ0X08kJGI1hb",
+      "content": "[Comet (browser) - Wikipedia] Comet is an AI browser [1] based on Chromium. It was released by Perplexity AI for Microsoft Windows and macOS on July 9, 2025, [2] for Android on November 20, 2025, [3] and for iOS on March 18, 2026. (https://en.wikipedia.org/wiki/Comet_(browser))\n\n[The Internet is Better on Comet - perplexity.ai] Oct 2, 2025 · We first launched Comet to limited release on July 9. Ever since, millions of people have joined the waitlist to receive Comet, faster than we’ve been able to release it. It has become the most sought-after AI product of the year, no matter how fast we release invites. (https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide)\n\n[Perplexity Launches Comet: An AI-Powered Browser That Could ...] Aug 20, 2026 · On July 9, 2025, Perplexity AI officially launched Comet, a new AI-powered web browser designed to reimagine how people interact with the internet. (https://felloai.com/perplexity-launches-comet-ai-browser/)"
+    },
+    {
+      "role": "assistant",
+      "content": "Perplexity AI released an AI browser named \"Comet\" on July 9, 2025. This browser is based on Chromium and was designed to enhance how users interact with the internet. \n\nFINAL: Comet",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

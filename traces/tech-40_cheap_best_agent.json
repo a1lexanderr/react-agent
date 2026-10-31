@@ -1,0 +1,51 @@
+{
+  "id": "tech-40_cheap_best_agent",
+  "question": "In what German city were the sixty-fourth sessions of the UNFCCC Subsidiary Bodies held in June 2026?",
+  "expected": "Bonn",
+  "answer": "Bonn, Germany",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00025,
+  "tokens_in": 1388,
+  "tokens_out": 70,
+  "duration_sec": 10.1,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what German city were the sixty-fourth sessions of the UNFCCC Subsidiary Bodies held in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_iAfAS0yJqbYmSO0OgLMvzYzP",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"UNFCCC Subsidiary Bodies sixty-fourth sessions June 2026 location\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_iAfAS0yJqbYmSO0OgLMvzYzP",
+      "content": "[Report of the Subsidiary Body for Implementation on ... - UNFCCC] Addendum – FCCC/SBI/2026/15/Add.2 Procedural summary report on the facilitative, multilateral consideration of progress at the sixty-fourth session of the Subsidiary Body for Implementation (https://unfccc.int/sites/default/files/resource/sbi2026_15_adv.pdf)\n\n[Information for SB 64 participants (A-Z) - UNFCCC] The sixty-fourth sessions of the Subsidiary Body for Scientific and Technological Advice and the Subsidiary Body for Implementation (SB 64) of the United Nations Framework Convention on Climate Change (UNFCCC) will take place at the World Conference Center Bonn (WCCB) in Bonn, Germany, from 08 to 18 June 2026. (https://unfccc.int/sb64/ifp)\n\n[United Nations FCCC/SBI/2026/L - docs.unfccc.int] Joint agenda items of the subsidiary bodies at their sixty-fourth sessions are marked with an asterisk. (https://docs.unfccc.int/documents/10000166/files/en/sbi2026_L01E.pdf)"
+    },
+    {
+      "role": "assistant",
+      "content": "The sixty-fourth sessions of the UNFCCC Subsidiary Bodies were held in Bonn, Germany, from June 8 to June 18, 2026.\n\nFINAL: Bonn, Germany",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

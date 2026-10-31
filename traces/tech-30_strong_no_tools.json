@@ -1,0 +1,29 @@
+{
+  "id": "tech-30_strong_no_tools",
+  "question": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?",
+  "expected": "CSG-3",
+  "answer": "CSG-3 (COSMO-SkyMed Second Generation 3)",
+  "is_correct": true,
+  "steps": 1,
+  "cost": 0.00056,
+  "tokens_in": 62,
+  "tokens_out": 25,
+  "duration_sec": 1.82,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: CSG-3 (COSMO-SkyMed Second Generation 3)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

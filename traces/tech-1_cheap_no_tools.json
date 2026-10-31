@@ -1,0 +1,29 @@
+{
+  "id": "tech-1_cheap_no_tools",
+  "question": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?",
+  "expected": "Comet",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 60,
+  "tokens_out": 26,
+  "duration_sec": 1.14,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot provide information on events or releases that occurred after my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

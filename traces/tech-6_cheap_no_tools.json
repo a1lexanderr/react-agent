@@ -1,0 +1,29 @@
+{
+  "id": "tech-6_cheap_no_tools",
+  "question": "In what city was the AI Action Summit held on 10–11 February 2025?",
+  "expected": "Paris",
+  "answer": "London",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 58,
+  "tokens_out": 12,
+  "duration_sec": 1.44,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what city was the AI Action Summit held on 10–11 February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "The AI Action Summit was held in London. FINAL: London",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

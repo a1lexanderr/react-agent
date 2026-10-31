@@ -1,0 +1,133 @@
+{
+  "id": "tech-25_cheap_search_only",
+  "question": "What open letter was published by 28 Fields Medalists on 11 September 2026 regarding AI in mathematics?",
+  "expected": "A Severe Misalignment of AI in Mathematics",
+  "answer": "Ничего не найдено",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.0004,
+  "tokens_in": 2137,
+  "tokens_out": 131,
+  "duration_sec": 33.22,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What open letter was published by 28 Fields Medalists on 11 September 2026 regarding AI in mathematics?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_TiNrTvboj9ME20tu9M3TRQbA",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"open letter 28 Fields Medalists AI mathematics September 11 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_TiNrTvboj9ME20tu9M3TRQbA",
+      "content": "[2026 in artificial intelligence] The following is a list of events of the year 2026 in artificial intelligence, as well as predicted and scheduled events that have not yet occurred. | Другие статьи: Navier–Stokes priority controversy, Timeline of artificial intelligence"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_DTzpyL2JborbCsIv3uWRY0gJ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Fields Medalists open letter AI mathematics September 11 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_DTzpyL2JborbCsIv3uWRY0gJ",
+      "content": "[2026 in artificial intelligence] The following is a list of events of the year 2026 in artificial intelligence, as well as predicted and scheduled events that have not yet occurred. | Другие статьи: Navier–Stokes priority controversy, International Mathematical Olympiad"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ISWAaKQspuOXo1c4WnnY8DsO",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"28 Fields Medalists open letter AI mathematics September 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ISWAaKQspuOXo1c4WnnY8DsO",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VuUT3aohyDWtSVVPpIITZGyL",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"open letter AI mathematics Fields Medalists September 11 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VuUT3aohyDWtSVVPpIITZGyL",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_SBH6xyDrCLRf7MviEpNyQ8DO",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"September 11 2026 open letter Fields Medalists AI mathematics\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_SBH6xyDrCLRf7MviEpNyQ8DO",
+      "content": "Ничего не найдено"
+    }
+  ]
+}

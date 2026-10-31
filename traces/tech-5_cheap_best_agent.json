@@ -1,0 +1,131 @@
+{
+  "id": "tech-5_cheap_best_agent",
+  "question": "What AI agent research system did OpenAI release on 2 February 2025?",
+  "expected": "ChatGPT Deep Research",
+  "answer": "OpenAI released the \"deep research agent\" on February 2, 2025.",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00079,
+  "tokens_in": 4757,
+  "tokens_out": 286,
+  "duration_sec": 32.96,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI agent research system did OpenAI release on 2 February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uxEJEQHDg19sMzxqB5tPuvpG",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"OpenAI AI agent research system release February 2 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uxEJEQHDg19sMzxqB5tPuvpG",
+      "content": "Ошибка поиска DuckDuckGo: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QgN4qyLhqwsYKRK0cA47wjjA",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"OpenAI AI agent research system February 2 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QgN4qyLhqwsYKRK0cA47wjjA",
+      "content": "[Introducing deep research | OpenAI] Feb 2, 2025 · An agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks for you. Available to Pro users today, Plus and Team next. (https://cdn.openai.com/API/docs/deep_research_blog.pdf)\n\n[OpenAI unveils a new ChatGPT agent for ‘deep research’] Feb 2, 2025 · OpenAI is announcing a new AI “agent” designed to help people conduct in-depth, complex research using ChatGPT, the company’s AI-powered chatbot platform. Appropriately enough, it’s called... (https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/)\n\n[Deep Research System Card - cdn.openai.com] Building on OpenAI’s established safety practices and Preparedness Framework, this system card provides more details on how we built deep research, learned about its capabilities and risks, and improved safety prior to launch. (https://cdn.openai.com/deep-research-system-card.pdf)"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_myxQdLT1IniFG11B2pcanBYj",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"OpenAI deep research agent February 2 2025\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "call_gDpup199WrTnRtxU8oev0BxG",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"OpenAI\", \"keywords\": \"deep research agent February 2 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_myxQdLT1IniFG11B2pcanBYj",
+      "content": "[AI agent] An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions, as with chatbots in the non-agentic forms that were common since 2023, or with traditional machine learning algorithms. While there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components. | Другие статьи: OpenAI, ChatGPT Deep Research"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gDpup199WrTnRtxU8oev0BxG",
+      "content": "On January 23, 2025, OpenAI released Operator, an AI agent and tool for accessing websites to execute goals defined by users. The feature was only available to Pro users in the United States. OpenAI released deep research agent, nine days later. It scored a 27% accuracy on the benchmark Humanity's Last Exam (HLE). Altman later stated GPT-4.5 would be the last model without full chain-of-thought reasoning.\nIn February 2025, OpenAI CEO Sam Altman stated that the company is interested in collaborating with the People's Republic of China, despite regulatory restrictions imposed by the U.S. government. This shift comes in response to the growing influence of the Chinese artificial intelligence company DeepSeek, which has disrupted the AI market with open models, including DeepSeek V3 and DeepSeek R1. Following DeepSeek's market emergence, OpenAI enhanced security protocols to protect proprietary development techniques from industrial espionage. Some industry observers noted similarities between DeepSeek's model distillation approach and OpenAI's methodology, though no formal intellectual property claim was filed."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_koCzfPmfZwWwXjGBhAfSNWtX",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"OpenAI deep research agent February 2025 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_koCzfPmfZwWwXjGBhAfSNWtX",
+      "content": "Ошибка поиска DuckDuckGo: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": "On February 2, 2025, OpenAI released a new AI agent called the \"deep research agent.\" This agent is designed to assist users in conducting in-depth and complex research tasks by synthesizing large amounts of online information and completing multi-step research tasks. It was initially made available to Pro users, with plans to extend access to Plus and Team users later.\n\nThe deep research agent represents a significant advancement in AI capabilities, allowing for more autonomous decision-making and goal-directed behavior compared to previous AI tools. It builds on OpenAI's existing safety practices and aims to enhance the research process for users.\n\nFINAL: OpenAI released the \"deep research agent\" on February 2, 2025.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

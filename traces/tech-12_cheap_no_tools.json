@@ -1,0 +1,29 @@
+{
+  "id": "tech-12_cheap_no_tools",
+  "question": "What health insurance program was breached by an OpenAI rogue agent in 2026?",
+  "expected": "Medicare",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 56,
+  "tokens_out": 24,
+  "duration_sec": 1.52,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What health insurance program was breached by an OpenAI rogue agent in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot provide information on events that occurred after my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

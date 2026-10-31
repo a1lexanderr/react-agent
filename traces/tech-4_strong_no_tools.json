@@ -1,0 +1,29 @@
+{
+  "id": "tech-4_strong_no_tools",
+  "question": "What company did OpenAI co-founder John Schulman join as chief scientist in February 2025?",
+  "expected": "Thinking Machines Lab",
+  "answer": "Anthropic",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00032,
+  "tokens_in": 61,
+  "tokens_out": 9,
+  "duration_sec": 1.19,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What company did OpenAI co-founder John Schulman join as chief scientist in February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Anthropic",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

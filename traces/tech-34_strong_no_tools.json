@@ -1,0 +1,29 @@
+{
+  "id": "tech-34_strong_no_tools",
+  "question": "In what country did OpenAI begin testing advertisements for ChatGPT on 9 February 2026?",
+  "expected": "United States",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00076,
+  "tokens_in": 62,
+  "tokens_out": 38,
+  "duration_sec": 1.95,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what country did OpenAI begin testing advertisements for ChatGPT on 9 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events occurring on February 9, 2026, as that date is beyond my knowledge cutoff.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

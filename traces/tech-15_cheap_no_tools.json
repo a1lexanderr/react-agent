@@ -1,0 +1,29 @@
+{
+  "id": "tech-15_cheap_no_tools",
+  "question": "What month in 2025 was the Arctic Report Card published by NOAA?",
+  "expected": "December",
+  "answer": "December 2025",
+  "is_correct": true,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 54,
+  "tokens_out": 18,
+  "duration_sec": 1.32,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What month in 2025 was the Arctic Report Card published by NOAA?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Arctic Report Card was published in December 2025. FINAL: December 2025",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

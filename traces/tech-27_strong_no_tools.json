@@ -1,0 +1,29 @@
+{
+  "id": "tech-27_strong_no_tools",
+  "question": "What was the designation of the first green star discovered by astronomers on 15 October 2026?",
+  "expected": "WD J1330+6435",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00094,
+  "tokens_in": 60,
+  "tokens_out": 51,
+  "duration_sec": 2.15,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What was the designation of the first green star discovered by astronomers on 15 October 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events occurring on October 15, 2026, as that date is beyond my knowledge cutoff, and I cannot verify or fabricate astronomical discoveries from that date.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

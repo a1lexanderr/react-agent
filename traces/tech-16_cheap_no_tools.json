@@ -1,0 +1,29 @@
+{
+  "id": "tech-16_cheap_no_tools",
+  "question": "On what date in 2025 was the Lancet Countdown report on health and climate change published?",
+  "expected": "28 October",
+  "answer": "October 28, 2025",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 59,
+  "tokens_out": 30,
+  "duration_sec": 1.25,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "On what date in 2025 was the Lancet Countdown report on health and climate change published?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Lancet Countdown report on health and climate change was published on October 28, 2025. FINAL: October 28, 2025",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

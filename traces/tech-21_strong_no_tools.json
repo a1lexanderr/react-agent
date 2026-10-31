@@ -1,0 +1,29 @@
+{
+  "id": "tech-21_strong_no_tools",
+  "question": "What model was retired in artificial intelligence on 13 February 2026?",
+  "expected": "GPT-4o",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00073,
+  "tokens_in": 54,
+  "tokens_out": 38,
+  "duration_sec": 1.66,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What model was retired in artificial intelligence on 13 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events occurring on 13 February 2026, as that date is beyond my knowledge cutoff.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

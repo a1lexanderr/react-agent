@@ -1,0 +1,133 @@
+{
+  "id": "tech-5_cheap_search_only",
+  "question": "What AI agent research system did OpenAI release on 2 February 2025?",
+  "expected": "ChatGPT Deep Research",
+  "answer": "Ничего не найдено",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00058,
+  "tokens_in": 3365,
+  "tokens_out": 120,
+  "duration_sec": 22.09,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI agent research system did OpenAI release on 2 February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_M1PUdFIjjHb3aq1JKWT6iVbH",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI AI agent research system release February 2 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_M1PUdFIjjHb3aq1JKWT6iVbH",
+      "content": "[OpenAI Codex] Codex is an AI coding agent developed by OpenAI for software engineering tasks such as writing code and fixing bugs, released in April 2025 as Codex CLI. Codex is available through ChatGPT's web app, the Codex CLI, a desktop app for Windows and macOS, and several IDE integrations. In March 2026, OpenAI introduced Codex Security, an application-security agent designed to identify and fix software vulnerabilities. By March 2026, Codex had grown to more than 2 million weekly active users, and OpenAI was positioning it as a broader enterprise agent platform that could eventually be used for tasks beyond software development. | Другие статьи: AI agent, OpenAI"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_9GMMarp3Dn5fXRZ9IgdiZG5c",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI AI agent release February 2 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9GMMarp3Dn5fXRZ9IgdiZG5c",
+      "content": "[AI agent] An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions, as with chatbots in the non-agentic forms that were common since 2023, or with traditional machine learning algorithms. While there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components. | Другие статьи: OpenAI Codex, OpenAI"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_i5ePtavBcKp60r6wawTe6CrZ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI release February 2 2025 AI agent\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_i5ePtavBcKp60r6wawTe6CrZ",
+      "content": "[AI agent] An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions, as with chatbots in the non-agentic forms that were common since 2023, or with traditional machine learning algorithms. While there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components. | Другие статьи: OpenAI Codex, OpenAI"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3eoFs59UcejEmBp2JrjnBFRw",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI AI agent February 2 2025 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3eoFs59UcejEmBp2JrjnBFRw",
+      "content": "[AI agent] An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions, as with chatbots in the non-agentic forms that were common since 2023, or with traditional machine learning algorithms. While there is no universally agreed-upon definition of an AI agent, common attributes of AI agents include goal-directed behavior, use of external tools, the ability to interact with and modify an external environment, and the ability to autonomously perform multi-step tasks. Their control flow is frequently driven by large language models (LLMs). Agent systems may also include memory components, planning logic, tool interfaces, and orchestration software for coordinating agent components. | Другие статьи: OpenAI, Perplexity AI"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_oT3HNgf0WgCnQHEAfpzAHj5c",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI AI agent release February 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_oT3HNgf0WgCnQHEAfpzAHj5c",
+      "content": "Ничего не найдено"
+    }
+  ]
+}

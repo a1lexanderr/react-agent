@@ -1,0 +1,29 @@
+{
+  "id": "tech-31_cheap_no_tools",
+  "question": "What NASA space telescope was launched on a Falcon 9 on 11 January 2026?",
+  "expected": "Pandora",
+  "answer": "Roman Space Telescope",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 58,
+  "tokens_out": 28,
+  "duration_sec": 1.35,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What NASA space telescope was launched on a Falcon 9 on 11 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "The NASA space telescope launched on a Falcon 9 on 11 January 2026 is the Roman Space Telescope. FINAL: Roman Space Telescope",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

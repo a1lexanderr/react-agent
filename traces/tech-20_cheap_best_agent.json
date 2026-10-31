@@ -1,0 +1,73 @@
+{
+  "id": "tech-20_cheap_best_agent",
+  "question": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?",
+  "expected": "Meta Superintelligence Labs",
+  "answer": "Meta Superintelligence Labs",
+  "is_correct": true,
+  "steps": 3,
+  "cost": 0.00038,
+  "tokens_in": 2033,
+  "tokens_out": 120,
+  "duration_sec": 15.62,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PdouxeUdw6D3kM1VZfzaXUA4",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Meta artificial intelligence division founded June 30 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PdouxeUdw6D3kM1VZfzaXUA4",
+      "content": "Ошибка поиска DuckDuckGo: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_AXzoA0kNHkEVyeQ5AWFOEaSq",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Meta AI division founded June 30 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AXzoA0kNHkEVyeQ5AWFOEaSq",
+      "content": "[Meta Superintelligence Labs - Wikipedia] Meta Superintelligence Labs (MSL) is an American artificial intelligence division of Meta Platforms, headquartered in Menlo Park, California, founded in June 2025. The division focuses on research and development in the field of artificial superintelligence. (https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs)\n\n[Meta Superintelligence Labs - AI Wiki] 3 days ago · Meta Superintelligence Labs (MSL) is the artificial intelligence division that Meta created on June 30, 2025 to consolidate its research, foundation models, and AI products under a single organization aimed at building what the company calls personal superintelligence [1] [2]. (https://aiwiki.ai/wiki/meta_superintelligence_labs)\n\n[META Superintelligence Lab - Learn AI] Sep 20, 2026 · In an internal memo dated June 30, 2025, Zuckerberg announced the creation of Meta Superintelligence Labs, describing the initiative as a consolidation of all AI-related teams into a single organization with a singular focus on building toward superintelligence. (https://ai.miraheze.org/wiki/META_Superintelligence_Lab)"
+    },
+    {
+      "role": "assistant",
+      "content": "The division focused on artificial intelligence that was founded at Meta on June 30, 2025, is called **Meta Superintelligence Labs (MSL)**. This division aims to consolidate Meta's research, foundation models, and AI products under a single organization with a focus on developing personal superintelligence. \n\nFINAL: Meta Superintelligence Labs",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tech-11_cheap_no_tools",
+  "question": "Rogue agents from what company breached Hugging Face in 2026?",
+  "expected": "OpenAI",
+  "answer": "Unknown",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 54,
+  "tokens_out": 27,
+  "duration_sec": 1.72,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "Rogue agents from what company breached Hugging Face in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I cannot provide information about events that occurred after my last training cut-off in October 2023. FINAL: Unknown",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

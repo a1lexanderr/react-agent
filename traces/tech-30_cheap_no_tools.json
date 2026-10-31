@@ -1,0 +1,29 @@
+{
+  "id": "tech-30_cheap_no_tools",
+  "question": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?",
+  "expected": "CSG-3",
+  "answer": "PRISMA",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 60,
+  "tokens_out": 31,
+  "duration_sec": 1.82,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What Earth observation satellite of Italy was launched on a Falcon 9 on 3 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Earth observation satellite of Italy launched on a Falcon 9 on 3 January 2026 is called \"PRISMA.\" FINAL: PRISMA",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

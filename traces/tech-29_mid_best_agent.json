@@ -1,0 +1,65 @@
+{
+  "id": "tech-29_mid_best_agent",
+  "question": "In what month in 2026 did the Artemis II mission carry four astronauts around the Moon?",
+  "expected": "April",
+  "answer": "April 2026",
+  "is_correct": true,
+  "steps": 3,
+  "cost": 0.00818,
+  "tokens_in": 7225,
+  "tokens_out": 191,
+  "duration_sec": 11.55,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what month in 2026 did the Artemis II mission carry four astronauts around the Moon?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the Artemis II mission and when it occurred in 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Az4iWAup9fXpcQ5JynEWMP",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Artemis II mission 2026 astronauts Moon\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01GgYYRzj4pJJdrFvfjMZbUD",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Artemis II mission 2026 date month\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Az4iWAup9fXpcQ5JynEWMP",
+      "content": "[Artemis II] Artemis II (April 1–11, 2026) flew a crew of four on a flyby of the Moon. It was the first crewed flight of the NASA-led Artemis program, the only beyond low Earth orbit (LEO) since Apollo 17 in 1972, and the only beyond LEO not part of the Apollo program. It was also the first crewed flight of the Space Launch System and of the Orion spacecraft, which the crew named Integrity. The four crew members of Artemis II were Victor Glover, the only person of color, Christina Koch, the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km). The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated Exploration Mission-2 (EM-2) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. After its launch, Artemis II gained widespread global attention for its achievements and inclusive crew, giving rise to the term \"Moon joy\". | Другие статьи: List of people who have flown to the Moon, List of Artemis astronauts"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01GgYYRzj4pJJdrFvfjMZbUD",
+      "content": "Ошибка поиска DuckDuckGo: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the information I needed. According to the Wikipedia article on Artemis II, the mission took place from April 1–11, 2026, and it carried four astronauts around the Moon.\n\nFINAL: April 2026",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

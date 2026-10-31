@@ -1,0 +1,29 @@
+{
+  "id": "tech-22_strong_no_tools",
+  "question": "What country blocked access to Grok on 10 January 2026 due to nonconsensual deepfakes?",
+  "expected": "Indonesia",
+  "answer": "Australia",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.0003,
+  "tokens_in": 66,
+  "tokens_out": 7,
+  "duration_sec": 1.25,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What country blocked access to Grok on 10 January 2026 due to nonconsensual deepfakes?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Australia",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

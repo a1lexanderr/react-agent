@@ -1,0 +1,29 @@
+{
+  "id": "tech-32_strong_no_tools",
+  "question": "What country lifted its ban on Grok on 23 January 2026?",
+  "expected": "Malaysia",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00083,
+  "tokens_in": 56,
+  "tokens_out": 44,
+  "duration_sec": 1.98,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What country lifted its ban on Grok on 23 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events on January 23, 2026, as that date is beyond my knowledge cutoff. I cannot answer this question accurately.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

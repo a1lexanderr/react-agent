@@ -1,0 +1,29 @@
+{
+  "id": "tech-24_strong_no_tools",
+  "question": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?",
+  "expected": "GPT-6 Astra",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00081,
+  "tokens_in": 59,
+  "tokens_out": 42,
+  "duration_sec": 1.98,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events occurring after my knowledge cutoff date. September 4, 2026 is beyond what I have data on.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

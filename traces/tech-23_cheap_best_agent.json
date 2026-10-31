@@ -1,0 +1,51 @@
+{
+  "id": "tech-23_cheap_best_agent",
+  "question": "In what city was the India AI Impact Summit held in February 2026?",
+  "expected": "New Delhi",
+  "answer": "New Delhi",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00024,
+  "tokens_in": 1403,
+  "tokens_out": 51,
+  "duration_sec": 4.68,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what city was the India AI Impact Summit held in February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_weQDvJfAdND9fCj8KYz0zGyj",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"India AI Impact Summit February 2026 location\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_weQDvJfAdND9fCj8KYz0zGyj",
+      "content": "[India AI Impact Summit 2026 - Wikipedia] The AI Impact Summit was an international summit on artificial intelligence (AI) held in New Delhi from 16 to 20 February 2026. [12][13] It followed the AI Action Summit in Paris in February 2025, the AI Seoul Summit in 2024 and the Bletchley Park AI Safety Summit in 2023. (https://en.wikipedia.org/wiki/India_AI_Impact_Summit_2026)\n\n[India-AI Impact Summit 2026 - static.pib.gov.in] Key Takeaways • The India–AI Impact Summit 2026 will be the first global AI summit to be hosted in the Global South. • It will be held from 16 to 20 February 2026 at Bharat Mandapam, New Delhi, as a five-day programme covering policy, research, industry, and public engagement. (https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jan/doc2026120762701.pdf)\n\n[India AI Impact Summit 2026] The India–AI Impact Summit 2026, announced by Hon’ble Prime Minister Narendra Modi at the France AI Action Summit and scheduled for February 19–20 in New Delhi, will be the first-ever global AI summit hosted in the Global South. (https://impact.indiaai.gov.in/about-summit)"
+    },
+    {
+      "role": "assistant",
+      "content": "The India AI Impact Summit was held in New Delhi from February 16 to 20, 2026. \n\nFINAL: New Delhi",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

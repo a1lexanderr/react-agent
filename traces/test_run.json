@@ -1,0 +1,51 @@
+{
+  "id": "test_run",
+  "question": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?",
+  "expected": "Comet",
+  "answer": "Comet",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00023,
+  "tokens_in": 1178,
+  "tokens_out": 83,
+  "duration_sec": 5.49,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What AI browser based on Chromium did Perplexity AI release on July 9, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_V9aYPr8TSATcSkAgXxKHV8OK",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Perplexity AI Chromium browser release July 9 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_V9aYPr8TSATcSkAgXxKHV8OK",
+      "content": "[Comet (browser) - Wikipedia] Comet is an AI browser [1] based on Chromium. It was released by Perplexity AI for Microsoft Windows and macOS on July 9, 2025, [2] for Android on November 20, 2025, [3] and for iOS on March 18, 2026. (https://en.wikipedia.org/wiki/Comet_(browser))\n\n[Comet Browser: a Personal AI Assistant - perplexity.ai] Comet browser by Perplexity is the AI browser that acts as a personal assistant. Automate tasks, research the web, organize your email, and more with Comet. (https://www.perplexity.ai/comet)\n\n[The Internet is Better on Comet - perplexity.ai] Oct 2, 2025 · Today we are releasing the Comet browser to the world, for free. We first launched Comet to limited release on July 9. Ever since, millions of people have joined the waitlist to receive Comet, faster than we’ve been able to release it. It has become the most sought-after AI product of the year, no matter how fast we release invites. Meanwhile, users with Comet access are working with it in ... (https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide)"
+    },
+    {
+      "role": "assistant",
+      "content": "Perplexity AI released an AI browser called \"Comet\" based on Chromium on July 9, 2025. This browser is designed to act as a personal assistant, helping users automate tasks, research the web, and organize their emails. \n\nFINAL: Comet",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

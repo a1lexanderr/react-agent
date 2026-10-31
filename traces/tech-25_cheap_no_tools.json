@@ -1,0 +1,29 @@
+{
+  "id": "tech-25_cheap_no_tools",
+  "question": "What open letter was published by 28 Fields Medalists on 11 September 2026 regarding AI in mathematics?",
+  "expected": "A Severe Misalignment of AI in Mathematics",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 62,
+  "tokens_out": 30,
+  "duration_sec": 1.33,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What open letter was published by 28 Fields Medalists on 11 September 2026 regarding AI in mathematics?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I cannot provide information on events or publications that occurred after my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

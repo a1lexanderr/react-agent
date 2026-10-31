@@ -1,0 +1,133 @@
+{
+  "id": "tech-19_cheap_search_only",
+  "question": "What German AI firm did Cohere agree to acquire in April 2026?",
+  "expected": "Aleph Alpha",
+  "answer": "[List of unicorn startup companies] This is a list of unicorn startup companies: In finance, a unicorn is a privately held startup company with a current valuation of US$1 billion or more. Notable lists of unicorn companies are maintained by The Wall Street Journal, Fortune Magazine, CNNMoney/CB Insights, TechCrunch, PitchBook/Morningstar, Traxcn and Tech in Asia. | Другие статьи: Oracle Corporation, Google DeepMind",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00036,
+  "tokens_in": 1901,
+  "tokens_out": 117,
+  "duration_sec": 39.2,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What German AI firm did Cohere agree to acquire in April 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BAbnAcp2fTzvUjXw8ULPvmt9",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cohere acquisition German AI firm April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BAbnAcp2fTzvUjXw8ULPvmt9",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_xubp5D8c6uUQXQ9wJXkRE3Yc",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cohere acquisition April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_xubp5D8c6uUQXQ9wJXkRE3Yc",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_j331F6j21mrjJ6QNBsSz1X0c",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cohere acquires German AI company April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_j331F6j21mrjJ6QNBsSz1X0c",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ikgcSNoyLny2npthy6loSfi4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cohere acquisition news April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ikgcSNoyLny2npthy6loSfi4",
+      "content": "[CoreWeave] CoreWeave, Inc. is an American cloud-computing company based in Livingston, New Jersey. As of 2026, the company operates 51 AI data centers, specialized data centers designed for higher parallel computing performance via heavy use of graphics processing units (GPUs). Such data centers are vital to the training and running of generative AI models, such as large language models and text-to-video models. Founded as Atlantic Crypto in 2017 the company focused on high-performance computing, CoreWeave has its own data centers operating in the United States and Europe, with some dedicated to multiple companies and some to a single client. Its $1.6 billion supercomputer data center for Nvidia in Plano, Texas, has been described by Nvidia as the fastest AI supercomputer in the world. | Другие статьи: Oracle Corporation, Mike Volpi"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_gHpNJ9CPyvEoy0X09I5JsbK7",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cohere acquisition German AI firm April 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gHpNJ9CPyvEoy0X09I5JsbK7",
+      "content": "[List of unicorn startup companies] This is a list of unicorn startup companies: In finance, a unicorn is a privately held startup company with a current valuation of US$1 billion or more. Notable lists of unicorn companies are maintained by The Wall Street Journal, Fortune Magazine, CNNMoney/CB Insights, TechCrunch, PitchBook/Morningstar, Traxcn and Tech in Asia. | Другие статьи: Oracle Corporation, Google DeepMind"
+    }
+  ]
+}

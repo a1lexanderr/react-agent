@@ -1,0 +1,29 @@
+{
+  "id": "tech-2_cheap_no_tools",
+  "question": "What project was formally announced by Donald Trump on 21 January 2025 with softbank and OpenAI?",
+  "expected": "Stargate Project",
+  "answer": "No project announced.",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 61,
+  "tokens_out": 29,
+  "duration_sec": 1.68,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What project was formally announced by Donald Trump on 21 January 2025 with softbank and OpenAI?"
+    },
+    {
+      "role": "assistant",
+      "content": "There was no project formally announced by Donald Trump on 21 January 2025 with SoftBank and OpenAI. FINAL: No project announced.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

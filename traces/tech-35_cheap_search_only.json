@@ -1,0 +1,51 @@
+{
+  "id": "tech-35_cheap_search_only",
+  "question": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?",
+  "expected": "40",
+  "answer": "40 experts",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00017,
+  "tokens_in": 878,
+  "tokens_out": 59,
+  "duration_sec": 9.07,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_lTAkr2NwZHWve9oWLE1j6IDh",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"UN General Assembly Independent International Scientific Panel on AI February 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lTAkr2NwZHWve9oWLE1j6IDh",
+      "content": "[Independent International Scientific Panel on AI] The Independent International Scientific Panel on Artificial Intelligence is a multilateral scientific body established within the United Nations system to produce independent, evidence-based assessments of the development, opportunities, risks, and impacts of artificial intelligence (AI). Formally established by United Nations General Assembly resolution A/RES/79/325 on 26 August 2025, the Panel is described as the first global scientific body dedicated entirely to artificial intelligence. Its mandate is rooted in the Global Digital Compact, adopted as part of the Pact for the Future in September 2024, which committed Member States to establish such a mechanism within the United Nations system. The Panel's 40 members were appointed by the General Assembly on 12 February 2026 and elected Yoshua Bengio and Maria Ressa as Co-Chairs at the inaugural meeting on 3 March 2026. The Panel is not a regulatory or enforcement body; it does not set binding rules, approve AI systems, or impose standards on governments or companies. Writing in Forbes, Ron Schmelzer compared its intended function to that of the Intergovernmental Panel on Climate Change (IPCC): a body designed to synthesise available scientific knowledge and place it at the service of global policy deliberation. A similar comparison was made in Nature. | Другие статьи: 2026 in artificial intelligence, 2026 Minab school attack"
+    },
+    {
+      "role": "assistant",
+      "content": "The UN General Assembly appointed 40 experts to the Independent International Scientific Panel on AI on 12 February 2026. \n\nFINAL: 40 experts",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

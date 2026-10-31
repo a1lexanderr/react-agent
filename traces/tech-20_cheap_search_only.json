@@ -1,0 +1,51 @@
+{
+  "id": "tech-20_cheap_search_only",
+  "question": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?",
+  "expected": "Meta Superintelligence Labs",
+  "answer": "Meta Superintelligence Labs (MSL)",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.0002,
+  "tokens_in": 945,
+  "tokens_out": 94,
+  "duration_sec": 4.58,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What division focused on artificial intelligence was founded at Meta on June 30, 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_yqll41VK9PiZkS9PwCyzoJ8Q",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Meta artificial intelligence division founded June 30 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_yqll41VK9PiZkS9PwCyzoJ8Q",
+      "content": "[Meta Superintelligence Labs] Meta Superintelligence Labs (MSL) is an American artificial intelligence division of Meta Platforms, headquartered in Menlo Park, California, founded in June 2025. The division focuses on research and development in the field of artificial superintelligence. MSL produces the Muse family of generative AI models, including the Muse AI agent, the Muse Spark large language model (LLM), Muse Image and Muse Video. MSL was preceded by Facebook Artificial Intelligence Research (FAIR), directed by Yann LeCun. In 2017 FAIR released PyTorch, an open source deep learning framework later used by ChatGPT, Tesla Autopilot, Uber's Pyro, and Hugging Face's Transformers. When Meta rebranded in 2021, FAIR was renamed Fundamental Artificial Intelligence Research, and Meta AI was formed. From 2023 to 2025, Meta released four iterations of the Llama LLM. In June 2025, Meta began developing a larger model codenamed Behemoth, reportedly motivated by CEO Mark Zuckerberg's displeasure with Llama 4. Meta spent more than $14 billion to acquire a 49% non-voting stake in Scale AI, a data annotation and language model benchmarking company. Scale AI's CEO Alexandr Wang moved to Chief AI Officer at Meta, leading MSL. Former GitHub CEO Nat Friedman joined as head of product. Meta had also unsuccessfully sought the acquisition of Safe Superintelligence Inc., Thinking Machines Lab, and Perplexity AI. In November 2025, LeCun left Meta to found Advanced Machine Intelligence Labs. Muse Spark was released in July 2026, achieving a top five result in benchmarks by Artificial Analysis. | Другие статьи: Artificial intelligence controversies, Meta AI"
+    },
+    {
+      "role": "assistant",
+      "content": "The division focused on artificial intelligence that was founded at Meta on June 30, 2025, is called Meta Superintelligence Labs (MSL). This division is dedicated to research and development in the field of artificial superintelligence and produces the Muse family of generative AI models.\n\nFINAL: Meta Superintelligence Labs (MSL)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

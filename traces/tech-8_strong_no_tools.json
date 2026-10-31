@@ -1,0 +1,29 @@
+{
+  "id": "tech-8_strong_no_tools",
+  "question": "What city suffered a ransomware attack in computing in 2026?",
+  "expected": "Berlin",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.001,
+  "tokens_in": 53,
+  "tokens_out": 56,
+  "duration_sec": 2.01,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What city suffered a ransomware attack in computing in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have reliable information about a ransomware attack on a specific city in 2026, as my knowledge cutoff is July 2025 and I cannot confirm events that may have occurred after that date.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

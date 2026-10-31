@@ -1,0 +1,29 @@
+{
+  "id": "tech-24_cheap_no_tools",
+  "question": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?",
+  "expected": "GPT-6 Astra",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 58,
+  "tokens_out": 26,
+  "duration_sec": 1.68,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What model described as artificial general intelligence did OpenAI launch on 4 September 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot provide information about events or releases beyond my training data, which goes up to October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

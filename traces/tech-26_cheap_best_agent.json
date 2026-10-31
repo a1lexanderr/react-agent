@@ -1,0 +1,51 @@
+{
+  "id": "tech-26_cheap_best_agent",
+  "question": "On what experimental tokamak in China did researchers verify a density-free plasma regime on 1 January 2026?",
+  "expected": "EAST",
+  "answer": "EAST (Experimental Advanced Superconducting Tokamak)",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00026,
+  "tokens_in": 1381,
+  "tokens_out": 88,
+  "duration_sec": 12.43,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "On what experimental tokamak in China did researchers verify a density-free plasma regime on 1 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_bP1mTNNMj6lueuvXrszTBWIH",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"China experimental tokamak density-free plasma regime January 1 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_bP1mTNNMj6lueuvXrszTBWIH",
+      "content": "[EAST Tokamak Experiments Exceed Plasma Density Limit ...] Researchers working on China's fully superconducting Experimental Advanced Superconducting Tokamak (EAST) have experimentally accessed a theorized \"density-free regime\" for fusion plasmas, achieving stable operation at densities well beyond conventional limits. (https://english.cas.cn/special-reports/2026q1/202604/t20260427_1158168.shtml)\n\n[China’s “artificial sun” just broke a fusion limit scientists ...] Jan 4, 2026 · Scientists working with China's fully superconducting Experimental Advanced Superconducting Tokamak (EAST) have successfully reached a long-theorized \"density-free regime\" in fusion... (https://www.sciencedaily.com/releases/2026/01/260101160855.htm)\n\n[Institute of Plasma Physics Chinese Academy Of Scieneces] Researchers working on China’s fully superconducting Experimental Advanced Superconducting Tokamak (EAST) have experimentally accessed a theorized “density-free regime” for fusion plasmas, achieving stable operation at densities well beyond conventional limits. (https://english.ipp.cas.cn/Research/Research_Progress/202601/t20260108_816168.html)"
+    },
+    {
+      "role": "assistant",
+      "content": "Researchers verified a density-free plasma regime on January 1, 2026, at China's fully superconducting Experimental Advanced Superconducting Tokamak (EAST). This achievement allowed for stable operation at plasma densities well beyond conventional limits. \n\nFINAL: EAST (Experimental Advanced Superconducting Tokamak)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

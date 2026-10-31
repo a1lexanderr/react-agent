@@ -1,0 +1,29 @@
+{
+  "id": "tech-3_strong_no_tools",
+  "question": "What artificial intelligence company did former OpenAI CTO Mira Murati launch in February 2025?",
+  "expected": "Thinking Machines Lab",
+  "answer": "Thinking Machines Lab",
+  "is_correct": true,
+  "steps": 1,
+  "cost": 0.00035,
+  "tokens_in": 62,
+  "tokens_out": 11,
+  "duration_sec": 1.4,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What artificial intelligence company did former OpenAI CTO Mira Murati launch in February 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Thinking Machines Lab",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

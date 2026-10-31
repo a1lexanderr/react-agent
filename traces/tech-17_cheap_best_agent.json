@@ -1,0 +1,73 @@
+{
+  "id": "tech-17_cheap_best_agent",
+  "question": "What global supply shortage occurred in computing starting in 2025?",
+  "expected": "memory",
+  "answer": "A global memory supply shortage, particularly affecting DRAM and NAND flash, began in 2025.",
+  "is_correct": true,
+  "steps": 3,
+  "cost": 0.00041,
+  "tokens_in": 2007,
+  "tokens_out": 181,
+  "duration_sec": 15.07,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What global supply shortage occurred in computing starting in 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_yPS1rQUx3sAzcTMZGPlutL1u",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"global supply shortage computing 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_yPS1rQUx3sAzcTMZGPlutL1u",
+      "content": "Ошибка поиска DuckDuckGo: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_o3kvo6TVyHvaQOueY5qLvVG6",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2025 global supply shortage computing\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_o3kvo6TVyHvaQOueY5qLvVG6",
+      "content": "[2025–present global memory supply shortage] A global computer memory supply shortage started in 2025 due to supply constraints and rapid price escalation in the semiconductor memory market, particularly affecting DRAM and NAND flash integrated circuits. This shortage has been referred to in media outlets as \"RAMmageddon\" or the \"RAMpocalypse\". Unlike the 2020–2023 global chip shortage, which stemmed primarily from pandemic-related supply chain disruptions from COVID-19, this shortage is driven by the AI boom, involving reallocation of manufacturing capacity toward products intended for AI data center development, creating a scarcity of integrated circuits intended for the consumer and enterprise markets. According to a 2026 Kearney PERLab analysis, the shortage is expected to last at least until 2030. In June 2026, Micron Technology CEO Sanjay Mehrotra expected the shortage to last through 2027, and supply to gradually improve by 2028. In August 2026, Jason Kong of Samsung Electronics expects the shortage to continue through 2028, while Kwak Noh-Jung of SK Hynix expects it to persist until 2030. | Другие статьи: 2020–2023 global chip shortage, AI data center"
+    },
+    {
+      "role": "assistant",
+      "content": "In 2025, a global supply shortage in computing emerged, primarily affecting semiconductor memory, particularly DRAM and NAND flash integrated circuits. This shortage, often referred to as \"RAMmageddon\" or the \"RAMpocalypse,\" was driven by the rapid growth of artificial intelligence (AI) technologies, which led to a reallocation of manufacturing capacity towards AI data center products. This shift created a scarcity of integrated circuits for consumer and enterprise markets. The shortage is expected to last until at least 2030, with various industry leaders predicting improvements in supply gradually starting from 2028.\n\nFINAL: A global memory supply shortage, particularly affecting DRAM and NAND flash, began in 2025.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

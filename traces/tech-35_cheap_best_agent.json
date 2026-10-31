@@ -1,0 +1,51 @@
+{
+  "id": "tech-35_cheap_best_agent",
+  "question": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?",
+  "expected": "40",
+  "answer": "40 experts",
+  "is_correct": true,
+  "steps": 2,
+  "cost": 0.00025,
+  "tokens_in": 1391,
+  "tokens_out": 65,
+  "duration_sec": 6.59,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "How many experts did the UN General Assembly appoint to the Independent International Scientific Panel on AI on 12 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_fdgT3QyaYgH8vx2ETjzv0d8O",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"UN General Assembly Independent International Scientific Panel on AI February 12 2026 experts appointed\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fdgT3QyaYgH8vx2ETjzv0d8O",
+      "content": "[General Assembly Appoints Artificial Intelligence Panel] Feb 13, 2026 · On 12 February, the General Assembly today appointed 40 members recommended by the Secretary-General to the Independent International Scientific Panel on Artificial Intelligence (AI), following a request from the United States that the vote to do so be on the record. (https://unric.org/en/general-assembly-appoints-artificial-intelligence-panel/)\n\n[Independent International Scientific Panel on AI] The 40 members of the Independent International Scientific Panel on AI include people from all five of the UN’s regions. They are from various different backgrounds, including... (https://www.un.org/independent-international-scientific-panel-ai/en/panel-members)\n\n[Statement by the Secretary-General upon the appointment of ...] Feb 12, 2026 · We now have a multidisciplinary group of leading AI experts from across the globe, geographically diverse and gender-balanced, who will provide independent and impartial assessments of AI’s... (https://www.un.org/sg/en/content/sg/statements/2026-02-12/statement-the-secretary-general-upon-the-appointment-of-the-members-of-the-independent-international-scientific-panel-artificial-intelligence-the-general-assembly)"
+    },
+    {
+      "role": "assistant",
+      "content": "On February 12, 2026, the UN General Assembly appointed 40 members to the Independent International Scientific Panel on Artificial Intelligence. \n\nFINAL: 40 experts",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

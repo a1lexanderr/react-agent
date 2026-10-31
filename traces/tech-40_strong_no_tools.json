@@ -1,0 +1,29 @@
+{
+  "id": "tech-40_strong_no_tools",
+  "question": "In what German city were the sixty-fourth sessions of the UNFCCC Subsidiary Bodies held in June 2026?",
+  "expected": "Bonn",
+  "answer": "Bonn",
+  "is_correct": true,
+  "steps": 1,
+  "cost": 0.00033,
+  "tokens_in": 64,
+  "tokens_out": 9,
+  "duration_sec": 1.3,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what German city were the sixty-fourth sessions of the UNFCCC Subsidiary Bodies held in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Bonn",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

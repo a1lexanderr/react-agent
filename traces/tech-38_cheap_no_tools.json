@@ -1,0 +1,29 @@
+{
+  "id": "tech-38_cheap_no_tools",
+  "question": "Rogue agents from which company were responsible for 2026 cyberattacks in computing?",
+  "expected": "OpenAI",
+  "answer": "N/A",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 57,
+  "tokens_out": 33,
+  "duration_sec": 1.19,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "Rogue agents from which company were responsible for 2026 cyberattacks in computing?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I cannot provide information on events or incidents that have not occurred as of my last training cut-off in October 2023. FINAL: N/A",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tech-39_cheap_no_tools",
+  "question": "Which civil defense system experienced a false alarm in computing in 2026?",
+  "expected": "Brazilian",
+  "answer": "Emergency Alert System (EAS)",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 3e-05,
+  "tokens_in": 54,
+  "tokens_out": 38,
+  "duration_sec": 1.77,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "Which civil defense system experienced a false alarm in computing in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "The civil defense system that experienced a false alarm in computing in 2026 was the Emergency Alert System (EAS) in the United States. FINAL: Emergency Alert System (EAS)",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

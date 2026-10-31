@@ -1,0 +1,29 @@
+{
+  "id": "tech-29_cheap_no_tools",
+  "question": "In what month in 2026 did the Artemis II mission carry four astronauts around the Moon?",
+  "expected": "April",
+  "answer": "November 2026",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 2e-05,
+  "tokens_in": 58,
+  "tokens_out": 12,
+  "duration_sec": 2.79,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what month in 2026 did the Artemis II mission carry four astronauts around the Moon?"
+    },
+    {
+      "role": "assistant",
+      "content": "November 2026.  \nFINAL: November 2026",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

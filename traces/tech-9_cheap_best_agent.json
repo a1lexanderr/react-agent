@@ -1,0 +1,73 @@
+{
+  "id": "tech-9_cheap_best_agent",
+  "question": "What educational platform suffered a data breach in computing in 2026?",
+  "expected": "Canvas",
+  "answer": "Canvas (Instructure) suffered a data breach in 2026.",
+  "is_correct": true,
+  "steps": 3,
+  "cost": 0.00066,
+  "tokens_in": 4440,
+  "tokens_out": 178,
+  "duration_sec": 8.31,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "What educational platform suffered a data breach in computing in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GtzzJVda4NwUJCpUgw9zTiwx",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"educational platform data breach 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GtzzJVda4NwUJCpUgw9zTiwx",
+      "content": "[2026 Canvas data breach - Wikipedia] In 2026, Instructure provided Canvas to approximately 30 million active participants at over 8,000 educational institutions in the United States, United Kingdom, Canada, Australia, New Zealand and some European nations. (https://en.wikipedia.org/wiki/2026_Canvas_data_breach)\n\n[2026 Cybersecurity Trends - 2026 Ransomware Trends Report] Download the latest analyst report on emerging cybersecurity threats and defense strategy. Ransomware attacks are devastating. Use these insights and trends to build resilience. Protecting supply chains · Cyber resilience strategy · Data exfiltration trends (https://www.bing.com/aclick?ld=e8gpta517Bv86uHHx6ePAi-DVUCUzbJKLN72YA0dUEa5pYmG463K6D7BxBcMibe8OsG868AsgDly01NT4cGq1Zc2xsYZV3Vom7HvPPP7m5exj2rKmMqlpSVHmu-1E5nfnjb6MpJpQhTa8Uh0GRrd5GKjDwXCyDgn70RYe0lWRVgJHn7RVl6Fu0HVU6IIGEcxhHnKaoDg&u=aHR0cHMlM2ElMmYlMmZnby52ZWVhbS5jb20lMmZkYXRhLXRydXN0LXJlc2lsaWVuY2UtcmVwb3J0JTNmc3QlM2RiaW5ncGFpZHNlYXJjaCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBhaWRfc2VhcmNoJTI2dXRtX2NhbXBhaWduJTNkMUNNQy1QTUlYX0VNRUFfREVfREVfUGFpZC1TZWFyY2hfV1BfZGF0YS10cnVzdC1yZXNpbGllbmNlLXJlcG9ydC1uYl8xQVclMjZ1dG1fY2FtcGFpZ25faWQlM2Q2MDYzNjk1NDklMjZ1dG1fYWRncm91cCUzZFdQLXJhbnNvbXdhcmUtdHJlbmRzLTIwMjUtbmItZW4lMjZ1dG1fYWRncm91cF9pZCUzZDEzMDUxMjE2MDM1MzIxNTMlMjZ1dG1fYWRpZCUzZDgxNTcwMTY1NDk1NTU4JTI2dXRtX21hdGNodHlwZSUzZHAlMjZ1dG1fYmlkbWF0Y2h0eXBlJTNkYnAlMjZ1dG1fbmV0d29yayUzZG8lMjZ1dG1fZGV2aWNlJTNkYyUyNnV0bV9rZXl3b3JkJTNkQ3liZXIlMjUyMHRocmVhdHMlMjZ1dG1fdGFyZ2V0aWQlM2Rrd2QtODE1NzA0MTkwODY2NTklM2Fsb2MtNzIlMjZ1dG1fcXVlcnklM2RlZHVjYXRpb25hbCUyNTIwcGxhdGZvcm0lMjUyMGRhdGElMjUyMGJyZWFjaCUyNTIwMjAyNiUyNnV0bV9tc2Nsa2lkJTNkZjEyMTY0MTVlZDVkMWJlMzc2MmYwZWYzZDM3ODNlYTMlMjZtc2Nsa2lkJTNkZjEyMTY0MTVlZDVkMWJlMzc2MmYwZWYzZDM3ODNlYTMlMjZ1dG1fdGVybSUzZEN5YmVyJTI1MjB0aHJlYXRzJTI2dXRtX2NvbnRlbnQlM2RXUC1yYW5zb213YXJlLXRyZW5kcy0yMDI1LW5iLWVu&rlid=f1216415ed5d1be3762f0ef3d3783ea3)\n\n[Biggest Data Breaches in Education (Updated August 2026)] Explore the 30 largest education data breaches as of August 2026, from PowerSchool to Canvas, alongside key sector statistics and US student privacy laws. (https://www.upguard.com/blog/biggest-data-breaches-in-education-updated-august-2026)"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hh9lnLZQPTIzTqnVq3H3EmaD",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Canvas data breach\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hh9lnLZQPTIzTqnVq3H3EmaD",
+      "content": "[2026 Canvas data breach] In late April 2026, Canvas LMS, a learning management system operated by Instructure, was affected by a data breach and outage. Instructure disclosed that it was investigating a cybersecurity attack involving certain user data, including names, email addresses, student ID numbers, and messages among users. The company said it had found no evidence that passwords, birth dates, government IDs, or financial information were involved in the hacking. On April 25, unauthorized actors accessed Canvas systems. Four days later, Instructure detected this intrusion, revoked unauthorized access, and engaged third-party cyber forensics experts. On May 1, Instructure disclosed this incident on their status page. The next day, they stated that they \"believe[d] the incident ha[d] been contained\" and added details about which categories of identifying information were stolen for ransom. Despite Instructure's claim on May 6 that the situation had been resolved, Canvas was hacked again on May 7; its login page was replaced with a ransomware message by ShinyHunters, the criminal hacking group which claimed responsibility. ShinyHunters threatened to release Canvas' sensitive data unless its ransom was paid by May 12. As of May 8, however, Instructure did not report incidents related to the May 7–8 hack on their status page, and claimed that access to their website had been restored to most users. The hack is considered the largest educational security breach on record due to its unprecedented global scale, affecting 8,809 universities, educational ministries, and other institutions worldwide. The breach had particularly significant implications in the United States, where Canvas is used by 41% of higher education institutions as well as some K-12 schools. The hacking group ShinyHunters claimed to have stolen 3.65 terabytes of data from approximately 275 million users, including private messages exchanged between students and teachers. The incident came to wider public attention on May 7 at approximately 1:20 p.m. PDT (UTC-7), when students began posting screenshots of the defaced Canvas log-in page on Reddit. On May 11, Instructure issued an apology for their lack of transparency on their incident update page. In that statement, they claimed to have reached an agreement with \"the unauthorized actor\" and that the compromised data was destroyed. Although the terms of the agreement are not publicly known, unconfirmed rumors suggest that US$10 million was paid. Instructure has also said that Canvas is fully back online and safe to use, however this information conflicts with their status website which indicates ongoing access issues for some institutions as of May 12. On May 13, 2026, a proposed class action lawsuit was filed against Instructure in the United States District Court for the Southern District of California on behalf of a San Diego resident due to the release of personally identifiable information (as a result of the breach). | Друг"
+    },
+    {
+      "role": "assistant",
+      "content": "In 2026, the educational platform Canvas, operated by Instructure, suffered a significant data breach. This incident occurred in late April 2026, when unauthorized actors accessed Canvas systems, compromising user data such as names, email addresses, student ID numbers, and messages among users. The breach affected approximately 275 million users and involved the theft of 3.65 terabytes of data. The hacking group ShinyHunters claimed responsibility and threatened to release sensitive data unless a ransom was paid. This breach is noted as one of the largest educational security breaches on record, impacting numerous educational institutions worldwide.\n\nFINAL: Canvas (Instructure) suffered a data breach in 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

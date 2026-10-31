@@ -1,0 +1,29 @@
+{
+  "id": "tech-14_strong_no_tools",
+  "question": "On what date in October 2026 was the state of the climate report published by Ripple and Wolf?",
+  "expected": "14 October",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00092,
+  "tokens_in": 62,
+  "tokens_out": 49,
+  "duration_sec": 2.14,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "On what date in October 2026 was the state of the climate report published by Ripple and Wolf?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about a specific report published by Ripple and Wolf in October 2026, as that date is beyond my knowledge cutoff and I cannot verify future events.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

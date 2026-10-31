@@ -1,0 +1,29 @@
+{
+  "id": "tech-31_strong_no_tools",
+  "question": "What NASA space telescope was launched on a Falcon 9 on 11 January 2026?",
+  "expected": "Pandora",
+  "answer": "I don't know",
+  "is_correct": false,
+  "steps": 1,
+  "cost": 0.00084,
+  "tokens_in": 60,
+  "tokens_out": 44,
+  "duration_sec": 2.53,
+  "stop_reason": "completed",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer the question with a short, unambiguous answer only. Finish your answer on the last line with: FINAL: <short answer>"
+    },
+    {
+      "role": "user",
+      "content": "What NASA space telescope was launched on a Falcon 9 on 11 January 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have information about events after my knowledge cutoff date. A launch on January 11, 2026 would be beyond what I can confirm.\n\nFINAL: I don't know",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "tech-34_cheap_search_only",
+  "question": "In what country did OpenAI begin testing advertisements for ChatGPT on 9 February 2026?",
+  "expected": "United States",
+  "answer": "Ничего не найдено",
+  "is_correct": false,
+  "steps": 6,
+  "cost": 0.00051,
+  "tokens_in": 2918,
+  "tokens_out": 125,
+  "duration_sec": 40.16,
+  "stop_reason": "max_steps",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an autonomous AI research agent answering questions about events from 2025 and 2026. Rules you must strictly follow:\n1. Never answer from memory alone. Always verify facts using your search tools.\n2. For general overview and Wikipedia knowledge, use 'web_search'.\n3. If an article is long (like '2026 in computing' or country overviews), use 'page_find' with title and keywords.\n4. For news, recent startup releases, and non-Wikipedia sources, use 'ddg_search'.\n5. For calculations or date differences, use 'calculator' or 'python_exec'.\n6. Do not repeat the exact same tool call with the same arguments.\n7. When you have enough information, finish your reasoning and output the final answer as the very last line in the exact format:\nFINAL: <short unambiguous answer>"
+    },
+    {
+      "role": "user",
+      "content": "In what country did OpenAI begin testing advertisements for ChatGPT on 9 February 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_pRqIpJLKoxwBmJGfp14ZUNP0",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI testing advertisements for ChatGPT February 9 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_pRqIpJLKoxwBmJGfp14ZUNP0",
+      "content": "[ChatGPT] ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models – specifically generative pre-trained transformers (GPTs) – to generate text, speech, and images in response to user prompts. ChatGPT accelerated the ongoing AI boom, a period marked by rapid investment and public attention toward the field of artificial intelligence (AI). OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts. ChatGPT was quickly adopted, reaching 100 million monthly active users two months after its release and 900 million weekly active users in February 2026. As of September 2026, it is the fifth-most visited website globally. Proponents say that it has the potential to transform numerous professional fields, and it has instigated public debate about the nature of creativity and the future of knowledge work. The chatbot has also been criticized for its limitations and potential for unethical use. It may generate incorrect or nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate academic dishonesty, generate misinformation, and create malicious code. The ethics of its development, particularly the use of copyrighted content as training data, have also drawn criticism. | Другие статьи: AI boom, 2026 in artificial intelligence"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hR72e1YkLIWFyp8m1eNXxkxM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI ChatGPT advertisements testing February 9 2026 country\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hR72e1YkLIWFyp8m1eNXxkxM",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tF2nzhNxrBnV3k2SW7VbbAtC",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI ChatGPT ads testing February 9 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tF2nzhNxrBnV3k2SW7VbbAtC",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_zBNviQW2Js804Lrl5ZuH5BXM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI ChatGPT advertisements testing February 9 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zBNviQW2Js804Lrl5ZuH5BXM",
+      "content": "Ничего не найдено"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_23QqG5vxl70MZUaGP0HqfQvp",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"OpenAI ChatGPT ads February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_23QqG5vxl70MZUaGP0HqfQvp",
+      "content": "Ничего не найдено"
+    }
+  ]
+}
